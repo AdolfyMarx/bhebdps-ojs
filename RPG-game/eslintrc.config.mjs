@@ -22,6 +22,7 @@ export default [
       sourceType: 'module',
     },
     rules: {
+      'no-console': 'off',
       'no-undef': 'error',
     },
   },
@@ -31,6 +32,7 @@ export default [
       globals: {
         describe: 'readonly',
         expect: 'readonly',
+        jest: 'readonly',
         test: 'readonly',
       },
     },
